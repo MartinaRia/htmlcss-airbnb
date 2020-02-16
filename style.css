@@ -1,0 +1,58 @@
+body{
+  font-family: arial;
+  color: white;
+  font-size: 50px;
+  margin: 0px;
+}
+
+#roma{
+  position: relative;
+  height: 70vh;
+  width: auto;
+  background: url(img/roma.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin-bottom: 2px;
+}
+
+#copenaghen{
+  position: relative;
+  height: 70vh;
+  width: auto;
+  background: url(img/copenaghen.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin-bottom: 2px;
+}
+
+#tokio{
+  position: relative;
+  height: 70vh;
+  width: auto;
+  background: url(img/tokio.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.layover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width:100%;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*height: 100%;
+  width:100%;*/
+  text-align: center;
+  text-shadow:1px 1px 3px black;
+}
