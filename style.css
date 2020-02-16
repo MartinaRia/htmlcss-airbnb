@@ -7,29 +7,27 @@ body{
 
 #roma{
   position: relative;
-  height: 70vh;
+  height: 100vh;
   width: auto;
   background: url(img/roma.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  margin-bottom: 2px;
 }
 
 #copenaghen{
   position: relative;
-  height: 70vh;
+  height: 100vh;
   width: auto;
   background: url(img/copenaghen.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  margin-bottom: 2px;
 }
 
 #tokio{
   position: relative;
-  height: 70vh;
+  height: 100vh;
   width: auto;
   background: url(img/tokio.jpg);
   background-size: cover;
